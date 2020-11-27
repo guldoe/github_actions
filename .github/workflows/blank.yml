@@ -1,9 +1,9 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Example manual actoin
 
 # Controls when the action will run. 
-on: repository_dispatch
+on: [repository_dispatch]
   # Triggers the workflow on push or pull request events but only for the main branch
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
